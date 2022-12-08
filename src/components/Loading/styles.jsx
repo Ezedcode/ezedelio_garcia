@@ -1,0 +1,75 @@
+import styled, { keyframes } from "styled-components";
+
+const animation = keyframes`
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+  `;
+
+const Container = styled.div`
+  .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+  }
+
+  .loading > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    animation: ${animation} 7s linear infinite;
+  }
+
+  .loading > div div {
+    border-radius: 100%;
+  }
+
+  .loading .first {
+    animation: first 3s linear infinite;
+  }
+
+  .loading .secund {
+    animation: secund 3s linear infinite;
+  }
+
+  @keyframes first {
+    0%,
+    100% {
+      width: 30px;
+      height: 30px;
+      background-color: var(--color4);
+    }
+    50% {
+      width: 10px;
+      height: 10px;
+      background-color: var(--color3);
+    }
+  }
+
+  @keyframes secund {
+    0%,
+    100% {
+      width: 10px;
+      height: 10px;
+      background-color: var(--color5);
+    }
+    50% {
+      width: 30px;
+      height: 30px;
+      background-color: var(--color2);
+    }
+  }
+`;
+
+export default Container;
