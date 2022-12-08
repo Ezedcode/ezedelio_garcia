@@ -57,7 +57,10 @@ const NavBar = () => {
             <Tag page="Contact" active={page[3]} />
           </div>
         </Link>
-        <a href="../../doc/resume.pdf" target="_blank">
+        <a href="https://drive.google.com/file/d/1uTbj6BRR9JrPPyZs23W0FrDvQpoO2seI/view?usp=share_link"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span className={"resume"}>Resume</span>
         </a>
       </nav>
