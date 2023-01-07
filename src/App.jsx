@@ -9,8 +9,9 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Project";
 import Skills from "./pages/Skills";
+import SocialMedia from "./components/SocialMedia";
 import GlobalStyles from "./styles/global";
-
+0
 const App = () => {
   const [menuBtn, setMenuBtn] = useState(false);
   const [statusPage, setStatusPage] = useState(0);
@@ -49,6 +50,7 @@ const App = () => {
         <GlobalStyles />
       </Router>
       <GlobalStyles />
+      <SocialMedia />
     </GlobalVar.Provider>
   );
 };
