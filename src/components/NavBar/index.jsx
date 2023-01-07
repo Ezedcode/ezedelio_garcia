@@ -27,7 +27,7 @@ const NavBar = () => {
               setMenuBtn(false);
             }}
           >
-            <Tag page="Home" active={page[0]} />
+            <Tag page="Zedino" active={page[0]} />
           </div>
         </Link>
         <Link to="/Skills">
