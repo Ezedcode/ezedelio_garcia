@@ -47,10 +47,9 @@ const App = () => {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         )}
-        <GlobalStyles />
+        <SocialMedia />
       </Router>
       <GlobalStyles />
-      <SocialMedia />
     </GlobalVar.Provider>
   );
 };
