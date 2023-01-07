@@ -37,6 +37,7 @@ const App = () => {
     >
       <Router>
         <Header />
+        <SocialMedia />
         {!isDocumentReady ? (
           <Loading />
         ) : (
@@ -47,7 +48,6 @@ const App = () => {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         )}
-        <SocialMedia />
       </Router>
       <GlobalStyles />
     </GlobalVar.Provider>
