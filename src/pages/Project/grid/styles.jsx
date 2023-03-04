@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
   .grid {
     position: relative;
-    height: 17rem;
+    height: 15rem;
     border-radius: 10px;
     border: 2px solid #2a369ebe;
     box-shadow: 1px 1px 1px 1px #2a369ebe;

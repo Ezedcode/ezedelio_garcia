@@ -4,14 +4,14 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Loading from "./components/Loading";
+import SocialMedia from "./components/SocialMedia";
 import GlobalVar from "./context/GlobalVar";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Project";
 import Skills from "./pages/Skills";
-import SocialMedia from "./components/SocialMedia";
 import GlobalStyles from "./styles/global";
-0
+
 const App = () => {
   const [menuBtn, setMenuBtn] = useState(false);
   const [statusPage, setStatusPage] = useState(0);
@@ -37,7 +37,7 @@ const App = () => {
     >
       <Router>
         <Header />
-        <SocialMedia />
+        <SocialMedia/>
         {!isDocumentReady ? (
           <Loading />
         ) : (

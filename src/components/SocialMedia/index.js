@@ -1,22 +1,23 @@
 import React from "react";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Link from "next/Link";
-
-import styles from "./styles.module.css";
+import Container from "./styles";
 
 const SocialMedia = () => {
-
-    return (
-        <div className={styles.socialMedia}>
-            <Link href="https://www.linkedin.com/in/ezed%C3%A9lio-garcia-61a9b622a/" target="_blank">
-                <FaLinkedin />
-            </Link>
-            <Link href="https://github.com/Ezedcode" target="_blank">
-                <FaGithub />
-            </Link>
-        </div>
-    );
-}
+  return (
+    <Container className={"socialMedia"}>
+      <a
+        href="https://www.linkedin.com/in/ezedélio-garcia"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaLinkedin />
+      </a>
+      <a href="https://github.com/Ezedcode" target="_blank" rel="noreferrer">
+        <FaGithub />
+      </a>
+    </Container>
+  );
+};
 
 export default SocialMedia;
