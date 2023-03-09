@@ -22,6 +22,7 @@ const Grid = (props) => {
         </div>
         <div className={"view"}>View</div>
       </div>
+      <div>{props.technologies}</div>
     </Container>
   );
 };

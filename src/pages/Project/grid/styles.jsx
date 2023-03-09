@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+  & {
+    border-radius: 10px;
+    border: 2px solid #00ffff;
+  }
+
+  & > div:last-child {
+    padding: 20px 0;
+    color: #00ffff;
+    text-align: center;
+    font-family: "Play", sans-serif;
+  }
+
   .grid {
     position: relative;
-    height: 15rem;
+    height: 10rem;
     border-radius: 10px;
     border: 2px solid #2a369ebe;
-    box-shadow: 1px 1px 1px 1px #2a369ebe;
+    box-shadow: 0px 0px 1px 1px #2a369ebe;
     cursor: pointer;
     display: flex;
     align-items: end;

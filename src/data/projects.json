@@ -1,10 +1,36 @@
 [
-  "https://app-finances-plxu.vercel.app/",
-  "https://social-media-dashboard-with-theme-switcher-master-topaz.vercel.app/",
-  "https://sun-shine.vercel.app/",
-  "https://ezedcode.github.io/Blogr-landing-page-main/",
-  "https://ezedcode.github.io/Dynamic-digital-clock/",
-  "https://ezedcode.github.io/Android-Project/",
-  "https://ezedcode.github.io/String-Project/",
-  "https://ezedcode.github.io/Insure-landing-page-master/"
+  { "url": "https://ezedcode.github.io/Android-Project/", "tec": "HTML | CSS" },
+  { "url": "https://ezedcode.github.io/String-Project/", "tec": "HTML | CSS" },
+  {
+    "url": "https://ezedcode.github.io/Dynamic-digital-clock/",
+    "tec": "HTML | CSS | JAVASCRIPT"
+  },
+  {
+    "url": "https://ezedcode.github.io/Insure-landing-page-master/",
+    "tec": "HTML | CSS | JAVASCRIPT"
+  },
+  {
+    "url": "https://ezedcode.github.io/Blogr-landing-page-main/",
+    "tec": "REACTJS | Styled-component"
+  },
+  {
+    "url": "https://sunnyside-agency-landing-page-main-six.vercel.app/",
+    "tec": "REACTJS | Styled-component"
+  },
+  {
+    "url": "https://social-media-dashboard-with-theme-switcher-master-topaz.vercel.app/",
+    "tec": "REACTJS | Styled-component"
+  },
+  {
+    "url": "https://clock-theta-seven.vercel.app/",
+    "tec": "REACTJS | Styled-component"
+  },
+  {
+    "url": "https://ecommerce-product-page-main-sigma-jade.vercel.app/",
+    "tec": "REACTJS | Styled-component"
+  },
+  {
+    "url": "https://multi-step-form-main-two.vercel.app/",
+    "tec": "REACTJS | Styled-component"
+  }
 ]

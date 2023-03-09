@@ -19,7 +19,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: none;
-    font-size: 17px;
   } 
   
   html,
@@ -27,7 +26,9 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     color: #ffff;
-    font-family: "Concert One", cursive;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 18px;
+    font-weight: 300;
     background-color: var(--color1);
   }
 

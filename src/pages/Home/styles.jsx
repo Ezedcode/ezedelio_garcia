@@ -27,7 +27,7 @@ const circle = keyframes`
   `;
 
 const Container = styled.div`
-  height: 90vh;
+  height: 80vh;
   color: #ffff;
   display: flex;
   align-items: center;

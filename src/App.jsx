@@ -4,7 +4,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Loading from "./components/Loading";
-import SocialMedia from "./components/SocialMedia";
+import SocialMedia from "./components/SocialMedia/index";
 import GlobalVar from "./context/GlobalVar";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -37,7 +37,7 @@ const App = () => {
     >
       <Router>
         <Header />
-        <SocialMedia/>
+        <SocialMedia />
         {!isDocumentReady ? (
           <Loading />
         ) : (

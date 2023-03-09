@@ -24,7 +24,7 @@ const animation = keyframes`
 
 const Container = styled.div`
   .contact {
-    height: 90vh;
+    height: 80vh;
     text-align: justify;
     display: flex;
     align-items: center;

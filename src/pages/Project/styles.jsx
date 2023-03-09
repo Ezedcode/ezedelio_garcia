@@ -13,10 +13,21 @@ export const Project = styled.div`
 `;
 
 export const Container = styled.div`
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  & {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  & .last-items {
+    display: flex;
+    background: #00ffff;
+  }
 
   @media (max-width: 1055px) {
     grid-template-columns: repeat(2, 1fr);
@@ -30,7 +41,13 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  margin-top: 10vh;
+  margin-top: 8rem;
+
+  @media (max-width: 582px) {
+    & {
+      margin-top: 2rem;
+    }
+  }
 
   @media (min-width: 1055px) {
     @media (min-height: 582px) {

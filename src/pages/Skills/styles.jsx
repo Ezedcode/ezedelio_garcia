@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   .skills {
-    height: 90vh;
+    height: 80vh;
     text-align: justify;
     display: flex;
     align-items: center;
