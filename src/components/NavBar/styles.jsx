@@ -62,7 +62,7 @@ const Container = styled.div`
     }
 
     .nav a:last-child {
-      margin-top: 10rem;
+      margin-top: 7rem;
     }
 
     .resume {

@@ -45,7 +45,7 @@ export const Main = styled.div`
 
   @media (max-width: 582px) {
     & {
-      margin-top: 2rem;
+      margin-top: 3.5rem;
     }
   }
 

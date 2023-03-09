@@ -121,7 +121,11 @@ const Container = styled.div`
     }
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 895px) {
+    & {
+      height: 100%;
+    }
+
     & > div:last-child {
       margin-bottom: 2rem;
     }

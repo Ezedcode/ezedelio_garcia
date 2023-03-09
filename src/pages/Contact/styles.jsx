@@ -49,6 +49,12 @@ const Container = styled.div`
     animation: ${animation} 0.5s linear infinite;
   }
 
+  @media (max-width: 420px) {
+    & {
+      height: 100%;
+    }
+  }
+
   @media (max-width: 884px) {
     .contact {
       height: 90vh;

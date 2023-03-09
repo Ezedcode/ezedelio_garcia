@@ -65,9 +65,9 @@ const Container = styled.div`
   }
 
   @media (max-width: 884px) {
-    height: 100%;
-
     .skills {
+      height: 100%;
+      margin-top: 3rem;
       flex-direction: column;
     }
 
