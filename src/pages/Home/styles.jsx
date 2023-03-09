@@ -37,6 +37,10 @@ const Container = styled.div`
     width: 520px;
   }
 
+  & > div:first-child {
+    text-align: justify;
+  }
+
   & > div:last-child {
     position: relative;
     width: 250px;
