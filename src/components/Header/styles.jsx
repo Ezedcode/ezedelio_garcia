@@ -9,7 +9,7 @@ const Container = styled.div`
 
   & > div {
     width: 90%;
-    height: 10vh;
+    height: 3.5rem;
     margin: auto;
     display: flex;
     align-items: center;

@@ -1,25 +1,26 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  .socialMedia {
+  &.socialMedia {
     position: fixed;
-    color: var(--color1);
-    margin-top: 50%;
-    background-color: var(--color2);
-    height: 4rem;
+    top: 50%;
+    height: 3rem;
+    padding: 5px 0;
     width: 2rem;
+    color: var(--color1);
+    background-color: var(--color2);
     border-radius: 0 5px 5px 0;
     box-shadow: 5px 5px 0px 1px #f5f5dca6;
     transition: 0.5s;
     z-index: 1;
   }
 
-  .socialMedia:hover {
+  &.socialMedia:hover {
     box-shadow: 0px 0px 0px 0px #f5f5dca6;
     background-color: #45dbe6;
   }
 
-  .socialMedia a {
+  &.socialMedia a {
     color: var(--color1);
     font-size: 25px;
     cursor: pointer;
@@ -27,7 +28,7 @@ const Container = styled.div`
     transition: 0.5s;
   }
 
-  .socialMedia a:hover {
+  &.socialMedia a:hover {
     color: rgba(253, 22, 22, 0.678);
     transition: 0.7s;
   }

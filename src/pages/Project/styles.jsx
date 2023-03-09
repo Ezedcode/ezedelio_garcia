@@ -41,7 +41,7 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  margin-top: 8rem;
+  margin-top: 9.5rem;
 
   @media (max-width: 582px) {
     & {

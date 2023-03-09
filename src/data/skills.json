@@ -9,14 +9,6 @@
 
   "abilities": {
     "p3": "Here are some technologies I've been interacting with in my personal projects:",
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "Next.js",
-      "Git"
-    ]
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "GitHub", "Git"]
   }
 }
