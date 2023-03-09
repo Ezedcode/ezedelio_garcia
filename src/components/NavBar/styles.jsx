@@ -61,10 +61,6 @@ const Container = styled.div`
       margin-top: 3rem;
     }
 
-    .nav a:last-child {
-      margin-top: 7rem;
-    }
-
     .resume {
       padding: 20px 40px;
       color: var(--color2);
