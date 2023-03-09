@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-
+import * as projects 
 import Grid from "./grid";
 
 import projects from "../../data/projects.json";
@@ -19,7 +19,7 @@ const Projects = () => {
           return (
             <Project secund={`${index * 0.2}`}>
               <a href={project.toString()} target="_blank" rel="noreferrer">
-                <Grid src={`./projects/${index + 1}.gif`} />
+                <Grid src={`./projects/${index + 1}.png`} />
               </a>
             </Project>
           );
