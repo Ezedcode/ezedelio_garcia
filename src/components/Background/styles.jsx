@@ -29,8 +29,6 @@ const Container = styled.div`
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-    
-   
 }
 
 .circles{
@@ -50,8 +48,7 @@ const Container = styled.div`
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: ${animate} 25s linear infinite;
-    bottom: -150px;
-    
+    bottom: -150px;   
 }
 
 .circles li:nth-child(1){
