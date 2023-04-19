@@ -29,7 +29,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Tilt Neon', cursive;
     font-size: 18px;
     font-weight: 300;
-    background-color: var(--color1);
   }
 
   h1 {

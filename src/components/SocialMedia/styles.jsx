@@ -7,8 +7,8 @@ const Container = styled.div`
     height: 3rem;
     padding: 5px 0;
     width: 2rem;
-    color: var(--color1);
-    background-color: var(--color2);
+    color: black;
+    background-color: var(--color0);
     border-radius: 0 5px 5px 0;
     box-shadow: 5px 5px 0px 1px #f5f5dca6;
     transition: 0.5s;

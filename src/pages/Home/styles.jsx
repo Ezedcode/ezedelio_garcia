@@ -37,11 +37,11 @@ const Container = styled.div`
     width: 520px;
   }
 
-  & > div:first-child {
+  & > .div:first-child {
     text-align: justify;
   }
 
-  & > div:last-child {
+  & > .div:last-child {
     position: relative;
     width: 250px;
     height: 250px;
@@ -54,12 +54,12 @@ const Container = styled.div`
     width: 100%;
   }
 
-  & > div:last-child > div:first-child,
-  & > div:last-child div:last-child {
+  & > .div:last-child > div:first-child,
+  & > .div:last-child div:last-child {
     position: absolute;
   }
 
-  & > div:last-child div:first-child {
+  & > .div:last-child div:first-child {
     width: 7rem;
     height: 7rem;
     rotate: 70deg;
@@ -68,27 +68,27 @@ const Container = styled.div`
     background-color: var(--color2);
   }
 
-  & > div:last-child div:nth-child(2) {
+  & > .div:last-child div:nth-child(2) {
     position: relative;
   }
 
-  & > div:last-child div:nth-child(2) img {
+  & > .div:last-child div:nth-child(2) img {
     border-radius: 20px;
   }
 
-  & > div:last-child div:last-child {
+  & > .div:last-child div:last-child {
     width: 7rem;
     height: 7rem;
     border-radius: 100%;
     background-color: var(--color3);
   }
 
-  & > div:last-child div:first-child {
+  & > .div:last-child div:first-child {
     left: -3rem;
     animation: ${square} 2s linear infinite;
   }
 
-  & > div:last-child div:last-child {
+  & > .div:last-child div:last-child {
     animation: ${circle} 4s linear infinite;
   }
 
@@ -98,19 +98,19 @@ const Container = styled.div`
       flex-direction: column-reverse;
     }
 
-    & > div:last-child {
+    & > .div:last-child {
       margin-left: 0px;
     }
 
-    & > div:last-child {
+    & > .div:last-child {
       width: 200px;
       height: 200px;
       margin-top: 5rem;
       margin-bottom: 1rem;
     }
 
-    & > div:last-child div:first-child,
-    & > div:last-child div:last-child {
+    & > .div:last-child div:first-child,
+    & > .div:last-child div:last-child {
       width: 5rem;
       height: 5rem;
     }
@@ -126,11 +126,11 @@ const Container = styled.div`
       height: 100%;
     }
 
-    & > div:last-child {
+    & > .div:last-child {
       margin-bottom: 2rem;
     }
 
-    & > div:first-child {
+    & > .div:first-child {
       margin: 0 auto;
       width: 90%;
     }

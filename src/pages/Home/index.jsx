@@ -11,12 +11,12 @@ const Home = () => {
   setStatusPage(1);
   return (
     <Container className="page">
-      <div>
+      <div className="div">
         <p>{home.greeting}👋</p>
         <h1>{home.title}</h1>
         <p>{home.about}</p>
       </div>
-      <div>
+      <div className="div">
         <div></div>
         <div>{<img src={avatar} alt="Ezedélio" />}</div>
         <div></div>

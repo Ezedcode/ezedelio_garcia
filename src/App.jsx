@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Project";
 import Skills from "./pages/Skills";
 import GlobalStyles from "./styles/global";
+import Background from "./components/Background";
 
 const App = () => {
   const [menuBtn, setMenuBtn] = useState(false);
@@ -35,6 +36,8 @@ const App = () => {
         setStatusPage,
       }}
     >
+      
+      <Background/>
       <Router>
         <Header />
         <SocialMedia />
